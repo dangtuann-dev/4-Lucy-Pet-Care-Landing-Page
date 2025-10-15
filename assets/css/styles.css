@@ -521,7 +521,7 @@ header {
   background: #fff6ed;
   padding: 68px 0 100px;
 }
-.services__title .heading {
+.hero__title .heading {
   color: #5e6085;
   text-align: center;
   font-family: Sora;
@@ -529,7 +529,7 @@ header {
   font-weight: 600;
   line-height: 16px;
 }
-.services__title .title {
+.hero__title .title {
   color: #000958;
   text-align: center;
   font-size: 5.2rem;
@@ -628,7 +628,7 @@ header {
   text-align: center;
   font-size: 1.6rem;
   font-weight: 500;
-  line-height:  1.6rem; 
+  line-height: 1.6rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -636,7 +636,73 @@ header {
   cursor: pointer;
   transition: all 0.2s;
 }
-.services__cta:hover{
+.services__cta:hover {
   background-color: #ff5b2e;
   color: #fff;
+}
+/* staff */
+.staff-avartar {
+  position: relative;
+  width: 234px;
+  height: 266px;
+  flex-shrink: 0;
+  border-radius: 129.5px;
+  background: linear-gradient(180deg, #90ccff 0%, #59a8eb 95.96%);
+}
+.staff-item:nth-child(2) .staff-avartar {
+  background: linear-gradient(180deg, #ff997e 0%, #f3752e 100%);
+}
+.staff-item:nth-child(3) .staff-avartar {
+  background: linear-gradient(180deg, #fabf3e 0%, #ffa14a 100%);
+}
+.staff-item:nth-child(4) .staff-avartar {
+  border-radius: 129.5px;
+  background: linear-gradient(180deg, #5bd6e2 0%, #00a7cc 100%);
+}
+.staff-avt {
+  position: absolute;
+  bottom: 0;
+  border-radius: 129.5px;
+}
+.staff__group {
+  display: flex;
+  justify-content: space-between;
+  margin: 59px 0;
+}
+.staff-item:nth-child(even) .staff-shape {
+  top: 0;
+}
+.staff-shape {
+  position: absolute;
+  bottom: 0;
+  right: -16px;
+}
+.staf-position {
+  color: #656689;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4rem;
+  margin: 29px 0 14px;
+}
+.staff-name {
+  color: #000958;
+  text-align: center;
+  font-family: Sora;
+  font-size: 2.2rem;
+  font-weight: 600;
+  line-height: 2.2rem;
+}
+.hero__cta:hover .btn {
+  background-color: #ff5b2e;
+  color: #fff;
+}
+.hero__cta{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.staff{
+  padding: 130px 0;
 }
