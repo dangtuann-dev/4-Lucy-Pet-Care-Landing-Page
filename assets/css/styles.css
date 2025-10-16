@@ -1053,3 +1053,113 @@ header {
   justify-content: space-between;
   padding: 54px 0 155px;
 }
+/* footer */
+.footer__left--nav {
+  background: #fff6ed;
+  width: 615px;
+  padding: 114px 212px 148px 135px;
+}
+.footer__input input {
+  border: none;
+  outline: none;
+  width: 268px;
+  height: 46px;
+  flex-shrink: 0;
+  border-radius: 23px;
+  border: 1px solid rgba(255, 91, 46, 0.25);
+  opacity: 0.6;
+  background: #fff;
+
+  padding-left: 24px;
+  padding-right: 55px;
+}
+.footer__input input::placeholder {
+  color: #656689;
+  font-family: Poppins;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.4rem;
+  padding-left: 24px;
+}
+.footer__input button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  width: 45px;
+  height: 45px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: #ff5b2e;
+  box-shadow: 0 15px 28px -7px rgba(255, 91, 46, 0.3);
+  position: absolute;
+  top: -26.5px;
+  right: 0px;
+  cursor: pointer;
+}
+.footer__input label {
+  position: relative;
+}
+.footer__input {
+  margin: 35px 0 68px;
+}
+.follow-us {
+  color: #000958;
+  font-family: Sora;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 2rem;
+}
+.footer__social--item {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
+.footer__social--list {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+}
+footer {
+  display: flex;
+}
+.footer__nav--item h3 {
+  color: #000958;
+  font-family: Sora;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 2rem;
+  margin-bottom: 14px;
+}
+.footer__nav--item li a {
+  color: #656689;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.8rem;
+}
+.footer__nav--item li a:hover {
+  text-decoration: underline;
+}
+footer .nav__hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 58px 137px;
+  padding: 52px 129px;
+}
+.copyright {
+  color: #656689;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.4rem;
+  margin: 0 0 22px 48px;
+
+  user-select: none; /* Chuẩn hiện nay */
+  -webkit-user-select: none; /* Chrome, Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE/Edge cũ */
+}
